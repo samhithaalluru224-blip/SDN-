@@ -1,0 +1,76 @@
+#  SDN Traffic Control Project
+
+## Overview
+
+This project demonstrates **Software Defined Networking (SDN)** using a centralized controller to monitor and manage network traffic. The experiment is performed using Mininet and analyzed using packet capture tools.
+
+---
+
+##  Tools & Technologies
+
+*  Mininet (Network Emulator)
+*  Ryu Controller
+*  tcpdump (Packet Capture)
+*  Wireshark (Packet Analysis)
+
+---
+
+##  Methodology
+
+1. Started the Ryu controller to manage the network
+2. Created a virtual network topology using Mininet
+3. Generated traffic between hosts using ping
+4. Captured packets using tcpdump
+5. Analyzed captured packets using Wireshark
+
+---
+
+##  Output Screenshots
+
+Screenshots of the following are included in the repository:
+
+*  Successful ping between hosts
+*  Packet capture using tcpdump
+*  Traffic analysis in Wireshark
+*  Flow statistics and network activity
+
+---
+
+##  Observations
+
+* Hosts in the network successfully communicated with each other
+* Network packets were captured and analyzed effectively
+* Controller managed traffic flow in the network
+* Both control plane and data plane activities were observed
+
+---
+
+##  Key Concepts
+
+* SDN Architecture (Control Plane & Data Plane)
+* OpenFlow Protocol
+* Traffic Monitoring & Analysis
+* Packet Inspection
+
+---
+
+##  Conclusion
+
+This project demonstrates how SDN enables **centralized control**, **efficient traffic management**, and **better network visibility** using controllers like Ryu.
+
+---
+
+## 📂 Repository Structure
+
+SDN-
+│
+├── README.md
+├── traffic_monitor.py
+├── report.txt
+└── screenshots/
+
+---
+
+##  Author
+
+**Samhitha Alluru**
